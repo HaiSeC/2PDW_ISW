@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,
+                   initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/styles/dashboard.css">
+    <link rel="stylesheet" href="/styles/settings.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-auto">
+            <img class="img-fluid" src="/images/2ticorides.jpg"></img>
+        </div>
+
+    </div>
+
+    <div class="modal" id="myModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title"> Datos erroneos </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="myInput">Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tab row">
+        <div class="tabs col-lg-10">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="dashboard.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/index.html">Rides</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="settings.html">Settings</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div id="userinfo" class="col">
+
+            <div id="user" class="col-auto">
+                <p></p>
+            </div>
+
+            <div id="userimage" class="col-auto ms-2 me-2">
+                <img class="img-fluid"
+                    src="/images/default-avatar-photo-placeholder-profile-picture-default-avatar-photo-placeholder-profile-picture-eps-file-easy-to-edit-125707135.jpg">
+            </div>
+
+            <div id="logout" class="col-auto ms-2 me-2">
+                <a id="signoutBtn" class="btn btn-outline-light btn-sm">Log out</a>
+            </div>
+
+        </div>
+    </div>
+    <section>
+        <div id="place">
+            <h2>Rides</h2>
+        </div>
+        <div>
+            <p> <a href="dashboard.html"> Dashboard </a> > <a> Settings </a></p>
+        </div>
+    </section>
+    <section>
+        <form id="dataForm">
+            <div class="form-group row g-3">
+                <div class="col-lg-6 cent">
+                    <label for="lname">Name</label><br>
+                    <input type="text" name="NameI" ><br>
+                </div>
+                <div class="col-lg-6 cent">
+                    <label for="llname">Last Name</label><br>
+                    <input type="text" name="LName" ><br>
+                </div>
+                <div class="col-lg-6 cent">
+                    <label for="lspeed">Speed Average</label><br>
+                    <input type="number" placeholder="Your speed average" name="speed"><br>
+                </div>
+                <div class="col-lg-6 cent">
+                    <label for="labout">About Me</label><br>
+                    <textarea name="description" placeholder="Something about you" type="text"></textarea>
+                </div>
+            </div>
+        </form>
+        <hr>
+        </hr>
+        <br></br>
+        <div class="row">
+            <div  class="col-6 buttons">
+                <a id="cancel" class="btn btn-danger btn-lg" >Cancel</a>
+            </div>
+            <div  class="col-6 buttons">
+                <a id="save" class="btn btn-success btn-lg" >Save</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/rides_js/user.js"></script>
+    <script type="text/javascript" src="/js/rides_js/settings.js"></script>
+</body>
+
+</html>

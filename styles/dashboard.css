@@ -1,0 +1,91 @@
+:root{
+    --background-elements-color: #319EAA;
+    --black: black;
+}
+
+.tab {
+    background-color: #319eaa;
+    ;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: darkgrey;
+}
+
+#welcome h6{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#user{
+    color: orange;
+    font-weight: bolder;
+}
+
+#userinfo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+#userimage img {
+    border: 1px solid var(--black);
+    width: 40px;
+}
+
+
+img {
+    width: 150px;
+}
+
+table {
+    text-align: center;
+}
+
+tr:nth-child(1) {
+    background-color: #575D60;
+    font-size: 20px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #319EAA;
+}
+
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+section { 
+    padding: 50px 0px 0px 0px;
+    clear: both;
+}
+
+
+
+#trides{
+    border: 1px solid black;
+
+    border-radius: 5px;
+}
+
+
+
+.plusbutton{
+    width: 20%;
+    text-align: right;
+}
+
+#bottom {
+    width: 100%;
+}

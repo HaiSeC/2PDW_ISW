@@ -1,0 +1,16 @@
+#welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #319EAA;
+}
+
+
+#find {
+    padding: 10px;
+}
+
+
+

@@ -1,0 +1,25 @@
+.topbar {
+    display: flex;
+    width: 100%;
+    background-color: #319EAA;
+    align-items: left;
+    height: 50px;
+}
+
+img {
+    margin-top: 50px;
+    width: 250px;
+}
+
+body{
+    text-align: center;
+}
+
+.modal-header {
+    background-color: rgb(207, 42, 42);
+    color: white;
+}
+
+#Error {
+    color: red;
+}

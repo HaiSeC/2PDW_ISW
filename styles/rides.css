@@ -1,0 +1,25 @@
+
+img {
+    width: 150px;
+}
+
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
